@@ -1,6 +1,6 @@
+
 body{
-    background-image: url(project50.svg);
+    background-image: url('Images/pattern-background-desktop.svg');
     background-repeat: no-repeat;
-    background-color:rgb(203, 218, 241);
     background-size:100%;
 }

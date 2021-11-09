@@ -85,6 +85,10 @@ body{
 .annual-plan-container a{
     font-size: x-small;
 }
+.annual-plan-container a:hover{
+    text-decoration: none;
+    
+}
 
 .payment{
     margin-top:8px;

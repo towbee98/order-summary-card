@@ -1,6 +1,116 @@
-
 body{
+    padding: 0;
+}
+
+.primary{
     background-image: url('Images/pattern-background-desktop.svg');
     background-repeat: no-repeat;
-    background-size:100%;
+    background-size:contain;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Red Hat Display', sans-serif;
+    opacity: 2px;
+} 
+
+.main-container{
+    width: 300px;
+    height: 450px;
+    box-shadow: 0 0 25px rgb(226, 229, 226) ; 
+    border-radius: 13px 13px 13px 13px;
+
 }
+
+.upper-container{
+    height: fit-content;
+}
+
+.upper-container img{
+    width: 100%;
+    margin: 0;
+    border-radius: 13px 13px 0 0;
+}
+
+.lower-container {
+    background: white;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.lower-container h3{
+    text-align: center;
+    margin-top:0;
+}
+.lower-container p{
+    text-align: center;
+    font-size: small;
+}
+.annual-plan-container{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-evenly;
+    background-color:rgba(214, 225, 255,0.3);
+    padding: 10px 0;
+    border-radius: 10px;
+    margin: 5px 10px;
+}
+
+.annual-plan-container img{
+    width: 25px;
+    height: 25px;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+}
+
+.description span{
+    font-size: 0.75rem;
+    font-weight: 900;
+    letter-spacing: 0.05px;
+}
+
+.description p{
+    margin-top:1px ;
+}
+
+.annual-plan-container a{
+    font-size: x-small;
+}
+
+.payment{
+    margin-top:8px;
+    padding: 13px 0;
+    background-color:rgb(31, 31, 204);
+    width: 90%;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px -2px blue;
+}
+.payment:hover{
+    cursor:pointer;
+    background-color:rgb(68, 68, 180);
+    
+}
+.cancel{
+    font-size: 11px;
+    font-weight: bold;
+    margin-top:20px;
+    color: rgb(54, 54, 224) ;
+}
+.cancel:hover{
+    cursor:pointer;
+    font-weight: 900;
+    color:rgb(39, 39, 61) ;
+}
+
